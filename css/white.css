@@ -1,4 +1,4 @@
-/* prefix:'' bg:white acc:Pink color:Blue color2:Blue Grey  */
+/* prefix:'' bg:black acc:Pink color:Blue color2:Teal color3:Amber */
 .hr, .color-50.hr,
 .color-50 > .hr, .color-100.hr,
 .color-100 > .hr, .color-200.hr,
@@ -10,7 +10,17 @@
 .color2-100 > .hr, .color2-200.hr,
 .color2-200 > .hr, .color2-300.hr,
 .color2-300 > .hr, .color2-400.hr,
-.color2-400 > .hr, .color-a1.hr,
+.color2-400 > .hr, .color3-50.hr,
+.color3-50 > .hr, .color3-100.hr,
+.color3-100 > .hr, .color3-200.hr,
+.color3-200 > .hr, .color3-300.hr,
+.color3-300 > .hr, .color3-400.hr,
+.color3-400 > .hr, .color3-500.hr,
+.color3-500 > .hr, .color3-600.hr,
+.color3-600 > .hr, .color3-700.hr,
+.color3-700 > .hr, .color3-800.hr,
+.color3-800 > .hr, .color3-900.hr,
+.color3-900 > .hr, .color-a1.hr,
 .color-a1 > .hr, .color-a2.hr,
 .color-a2 > .hr, .color-600.hr,
 .color-600 > .hr, .color-700.hr,
@@ -25,8 +35,15 @@
 .color-a3 > .hr, .color-a4.hr,
 .color-a4 > .hr {
   height: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%; }
   .hr::before, .color-50.hr::before,
@@ -40,7 +57,17 @@
   .color2-100 > .hr::before, .color2-200.hr::before,
   .color2-200 > .hr::before, .color2-300.hr::before,
   .color2-300 > .hr::before, .color2-400.hr::before,
-  .color2-400 > .hr::before, .color-a1.hr::before,
+  .color2-400 > .hr::before, .color3-50.hr::before,
+  .color3-50 > .hr::before, .color3-100.hr::before,
+  .color3-100 > .hr::before, .color3-200.hr::before,
+  .color3-200 > .hr::before, .color3-300.hr::before,
+  .color3-300 > .hr::before, .color3-400.hr::before,
+  .color3-400 > .hr::before, .color3-500.hr::before,
+  .color3-500 > .hr::before, .color3-600.hr::before,
+  .color3-600 > .hr::before, .color3-700.hr::before,
+  .color3-700 > .hr::before, .color3-800.hr::before,
+  .color3-800 > .hr::before, .color3-900.hr::before,
+  .color3-900 > .hr::before, .color-a1.hr::before,
   .color-a1 > .hr::before, .color-a2.hr::before,
   .color-a2 > .hr::before, .color-600.hr::before,
   .color-600 > .hr::before, .color-700.hr::before,
@@ -70,7 +97,17 @@
 .color2-100 > .txt1-bg, .color2-200.txt1-bg,
 .color2-200 > .txt1-bg, .color2-300.txt1-bg,
 .color2-300 > .txt1-bg, .color2-400.txt1-bg,
-.color2-400 > .txt1-bg, .color-a1.txt1-bg,
+.color2-400 > .txt1-bg, .color3-50.txt1-bg,
+.color3-50 > .txt1-bg, .color3-100.txt1-bg,
+.color3-100 > .txt1-bg, .color3-200.txt1-bg,
+.color3-200 > .txt1-bg, .color3-300.txt1-bg,
+.color3-300 > .txt1-bg, .color3-400.txt1-bg,
+.color3-400 > .txt1-bg, .color3-500.txt1-bg,
+.color3-500 > .txt1-bg, .color3-600.txt1-bg,
+.color3-600 > .txt1-bg, .color3-700.txt1-bg,
+.color3-700 > .txt1-bg, .color3-800.txt1-bg,
+.color3-800 > .txt1-bg, .color3-900.txt1-bg,
+.color3-900 > .txt1-bg, .color-a1.txt1-bg,
 .color-a1 > .txt1-bg, .color-a2.txt1-bg,
 .color-a2 > .txt1-bg {
   background-color: rgba(0, 0, 0, 0.87); }
@@ -86,7 +123,17 @@
 .color2-100 > .txt2-bg, .color2-200.txt2-bg,
 .color2-200 > .txt2-bg, .color2-300.txt2-bg,
 .color2-300 > .txt2-bg, .color2-400.txt2-bg,
-.color2-400 > .txt2-bg, .color-a1.txt2-bg,
+.color2-400 > .txt2-bg, .color3-50.txt2-bg,
+.color3-50 > .txt2-bg, .color3-100.txt2-bg,
+.color3-100 > .txt2-bg, .color3-200.txt2-bg,
+.color3-200 > .txt2-bg, .color3-300.txt2-bg,
+.color3-300 > .txt2-bg, .color3-400.txt2-bg,
+.color3-400 > .txt2-bg, .color3-500.txt2-bg,
+.color3-500 > .txt2-bg, .color3-600.txt2-bg,
+.color3-600 > .txt2-bg, .color3-700.txt2-bg,
+.color3-700 > .txt2-bg, .color3-800.txt2-bg,
+.color3-800 > .txt2-bg, .color3-900.txt2-bg,
+.color3-900 > .txt2-bg, .color-a1.txt2-bg,
 .color-a1 > .txt2-bg, .color-a2.txt2-bg,
 .color-a2 > .txt2-bg {
   background-color: rgba(0, 0, 0, 0.54); }
@@ -102,7 +149,17 @@
 .color2-100 > .txt3-bg, .color2-200.txt3-bg,
 .color2-200 > .txt3-bg, .color2-300.txt3-bg,
 .color2-300 > .txt3-bg, .color2-400.txt3-bg,
-.color2-400 > .txt3-bg, .color-a1.txt3-bg,
+.color2-400 > .txt3-bg, .color3-50.txt3-bg,
+.color3-50 > .txt3-bg, .color3-100.txt3-bg,
+.color3-100 > .txt3-bg, .color3-200.txt3-bg,
+.color3-200 > .txt3-bg, .color3-300.txt3-bg,
+.color3-300 > .txt3-bg, .color3-400.txt3-bg,
+.color3-400 > .txt3-bg, .color3-500.txt3-bg,
+.color3-500 > .txt3-bg, .color3-600.txt3-bg,
+.color3-600 > .txt3-bg, .color3-700.txt3-bg,
+.color3-700 > .txt3-bg, .color3-800.txt3-bg,
+.color3-800 > .txt3-bg, .color3-900.txt3-bg,
+.color3-900 > .txt3-bg, .color-a1.txt3-bg,
 .color-a1 > .txt3-bg, .color-a2.txt3-bg,
 .color-a2 > .txt3-bg {
   background-color: rgba(0, 0, 0, 0.26); }
@@ -118,7 +175,17 @@
 .color2-100 > .icon-bg, .color2-200.icon-bg,
 .color2-200 > .icon-bg, .color2-300.icon-bg,
 .color2-300 > .icon-bg, .color2-400.icon-bg,
-.color2-400 > .icon-bg, .color-a1.icon-bg,
+.color2-400 > .icon-bg, .color3-50.icon-bg,
+.color3-50 > .icon-bg, .color3-100.icon-bg,
+.color3-100 > .icon-bg, .color3-200.icon-bg,
+.color3-200 > .icon-bg, .color3-300.icon-bg,
+.color3-300 > .icon-bg, .color3-400.icon-bg,
+.color3-400 > .icon-bg, .color3-500.icon-bg,
+.color3-500 > .icon-bg, .color3-600.icon-bg,
+.color3-600 > .icon-bg, .color3-700.icon-bg,
+.color3-700 > .icon-bg, .color3-800.icon-bg,
+.color3-800 > .icon-bg, .color3-900.icon-bg,
+.color3-900 > .icon-bg, .color-a1.icon-bg,
 .color-a1 > .icon-bg, .color-a2.icon-bg,
 .color-a2 > .icon-bg {
   background-color: rgba(0, 0, 0, 0.54); }
@@ -135,7 +202,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .txt1, .color2-200, .color2-200.txt1,
 .color2-200 > .txt1, .color2-300, .color2-300.txt1,
 .color2-300 > .txt1, .color2-400, .color2-400.txt1,
-.color2-400 > .txt1, .color-a1, .color-a1.txt1,
+.color2-400 > .txt1, .color3-50, .color3-50.txt1,
+.color3-50 > .txt1, .color3-100, .color3-100.txt1,
+.color3-100 > .txt1, .color3-200, .color3-200.txt1,
+.color3-200 > .txt1, .color3-300, .color3-300.txt1,
+.color3-300 > .txt1, .color3-400, .color3-400.txt1,
+.color3-400 > .txt1, .color3-500, .color3-500.txt1,
+.color3-500 > .txt1, .color3-600, .color3-600.txt1,
+.color3-600 > .txt1, .color3-700, .color3-700.txt1,
+.color3-700 > .txt1, .color3-800, .color3-800.txt1,
+.color3-800 > .txt1, .color3-900, .color3-900.txt1,
+.color3-900 > .txt1, .color-a1, .color-a1.txt1,
 .color-a1 > .txt1, .color-a2, .color-a2.txt1,
 .color-a2 > .txt1, .info-bg, .warning-bg, .success-bg, .error-bg {
   color: rgba(0, 0, 0, 0.87); }
@@ -151,7 +228,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .txt2, .color2-200.txt2,
 .color2-200 > .txt2, .color2-300.txt2,
 .color2-300 > .txt2, .color2-400.txt2,
-.color2-400 > .txt2, .color-a1.txt2,
+.color2-400 > .txt2, .color3-50.txt2,
+.color3-50 > .txt2, .color3-100.txt2,
+.color3-100 > .txt2, .color3-200.txt2,
+.color3-200 > .txt2, .color3-300.txt2,
+.color3-300 > .txt2, .color3-400.txt2,
+.color3-400 > .txt2, .color3-500.txt2,
+.color3-500 > .txt2, .color3-600.txt2,
+.color3-600 > .txt2, .color3-700.txt2,
+.color3-700 > .txt2, .color3-800.txt2,
+.color3-800 > .txt2, .color3-900.txt2,
+.color3-900 > .txt2, .color-a1.txt2,
 .color-a1 > .txt2, .color-a2.txt2,
 .color-a2 > .txt2 {
   color: rgba(0, 0, 0, 0.54); }
@@ -167,7 +254,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .txt3, .color2-200.txt3,
 .color2-200 > .txt3, .color2-300.txt3,
 .color2-300 > .txt3, .color2-400.txt3,
-.color2-400 > .txt3, .color-a1.txt3,
+.color2-400 > .txt3, .color3-50.txt3,
+.color3-50 > .txt3, .color3-100.txt3,
+.color3-100 > .txt3, .color3-200.txt3,
+.color3-200 > .txt3, .color3-300.txt3,
+.color3-300 > .txt3, .color3-400.txt3,
+.color3-400 > .txt3, .color3-500.txt3,
+.color3-500 > .txt3, .color3-600.txt3,
+.color3-600 > .txt3, .color3-700.txt3,
+.color3-700 > .txt3, .color3-800.txt3,
+.color3-800 > .txt3, .color3-900.txt3,
+.color3-900 > .txt3, .color-a1.txt3,
 .color-a1 > .txt3, .color-a2.txt3,
 .color-a2 > .txt3 {
   color: rgba(0, 0, 0, 0.26); }
@@ -183,7 +280,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .icon, .color2-200.icon,
 .color2-200 > .icon, .color2-300.icon,
 .color2-300 > .icon, .color2-400.icon,
-.color2-400 > .icon, .color-a1.icon,
+.color2-400 > .icon, .color3-50.icon,
+.color3-50 > .icon, .color3-100.icon,
+.color3-100 > .icon, .color3-200.icon,
+.color3-200 > .icon, .color3-300.icon,
+.color3-300 > .icon, .color3-400.icon,
+.color3-400 > .icon, .color3-500.icon,
+.color3-500 > .icon, .color3-600.icon,
+.color3-600 > .icon, .color3-700.icon,
+.color3-700 > .icon, .color3-800.icon,
+.color3-800 > .icon, .color3-900.icon,
+.color3-900 > .icon, .color-a1.icon,
 .color-a1 > .icon, .color-a2.icon,
 .color-a2 > .icon {
   color: rgba(0, 0, 0, 0.54); }
@@ -199,7 +306,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .hr::before, .color2-200.hr::before,
 .color2-200 > .hr::before, .color2-300.hr::before,
 .color2-300 > .hr::before, .color2-400.hr::before,
-.color2-400 > .hr::before, .color-a1.hr::before,
+.color2-400 > .hr::before, .color3-50.hr::before,
+.color3-50 > .hr::before, .color3-100.hr::before,
+.color3-100 > .hr::before, .color3-200.hr::before,
+.color3-200 > .hr::before, .color3-300.hr::before,
+.color3-300 > .hr::before, .color3-400.hr::before,
+.color3-400 > .hr::before, .color3-500.hr::before,
+.color3-500 > .hr::before, .color3-600.hr::before,
+.color3-600 > .hr::before, .color3-700.hr::before,
+.color3-700 > .hr::before, .color3-800.hr::before,
+.color3-800 > .hr::before, .color3-900.hr::before,
+.color3-900 > .hr::before, .color-a1.hr::before,
 .color-a1 > .hr::before, .color-a2.hr::before,
 .color-a2 > .hr::before {
   background-color: rgba(0, 0, 0, 0.12); }
@@ -215,7 +332,17 @@ body, .txt1, .bg3, .bg2, .bg1, .color-50, .color-50.txt1,
 .color2-100 > .hr-border, .color2-200.hr-border,
 .color2-200 > .hr-border, .color2-300.hr-border,
 .color2-300 > .hr-border, .color2-400.hr-border,
-.color2-400 > .hr-border, .color-a1.hr-border,
+.color2-400 > .hr-border, .color3-50.hr-border,
+.color3-50 > .hr-border, .color3-100.hr-border,
+.color3-100 > .hr-border, .color3-200.hr-border,
+.color3-200 > .hr-border, .color3-300.hr-border,
+.color3-300 > .hr-border, .color3-400.hr-border,
+.color3-400 > .hr-border, .color3-500.hr-border,
+.color3-500 > .hr-border, .color3-600.hr-border,
+.color3-600 > .hr-border, .color3-700.hr-border,
+.color3-700 > .hr-border, .color3-800.hr-border,
+.color3-800 > .hr-border, .color3-900.hr-border,
+.color3-900 > .hr-border, .color-a1.hr-border,
 .color-a1 > .hr-border, .color-a2.hr-border,
 .color-a2 > .hr-border {
   border-bottom: 0.0625em solid rgba(0, 0, 0, 0.12); }
@@ -442,54 +569,104 @@ body {
     color: #0D47A1; }
 
 .color2-50 {
-  background-color: #ECEFF1; }
+  background-color: #E0F2F1; }
   .color2-50-txt {
-    color: #ECEFF1; }
+    color: #E0F2F1; }
 
 .color2-100 {
-  background-color: #CFD8DC; }
+  background-color: #B2DFDB; }
   .color2-100-txt {
-    color: #CFD8DC; }
+    color: #B2DFDB; }
 
 .color2-200 {
-  background-color: #B0BEC5; }
+  background-color: #80CBC4; }
   .color2-200-txt {
-    color: #B0BEC5; }
+    color: #80CBC4; }
 
 .color2-300 {
-  background-color: #90A4AE; }
+  background-color: #4DB6AC; }
   .color2-300-txt {
-    color: #90A4AE; }
+    color: #4DB6AC; }
 
 .color2-400 {
-  background-color: #78909C; }
+  background-color: #26A69A; }
   .color2-400-txt {
-    color: #78909C; }
+    color: #26A69A; }
 
 .color2-500 {
-  background-color: #607D8B; }
+  background-color: #009688; }
   .color2-500-txt {
-    color: #607D8B; }
+    color: #009688; }
 
 .color2-600 {
-  background-color: #546E7A; }
+  background-color: #00897B; }
   .color2-600-txt {
-    color: #546E7A; }
+    color: #00897B; }
 
 .color2-700 {
-  background-color: #455A64; }
+  background-color: #00796B; }
   .color2-700-txt {
-    color: #455A64; }
+    color: #00796B; }
 
 .color2-800 {
-  background-color: #37474F; }
+  background-color: #00695C; }
   .color2-800-txt {
-    color: #37474F; }
+    color: #00695C; }
 
 .color2-900 {
-  background-color: #263238; }
+  background-color: #004D40; }
   .color2-900-txt {
-    color: #263238; }
+    color: #004D40; }
+
+.color3-50 {
+  background-color: #FFF8E1; }
+  .color3-50-txt {
+    color: #FFF8E1; }
+
+.color3-100 {
+  background-color: #FFECB3; }
+  .color3-100-txt {
+    color: #FFECB3; }
+
+.color3-200 {
+  background-color: #FFE082; }
+  .color3-200-txt {
+    color: #FFE082; }
+
+.color3-300 {
+  background-color: #FFD54F; }
+  .color3-300-txt {
+    color: #FFD54F; }
+
+.color3-400 {
+  background-color: #FFCA28; }
+  .color3-400-txt {
+    color: #FFCA28; }
+
+.color3-500 {
+  background-color: #FFC107; }
+  .color3-500-txt {
+    color: #FFC107; }
+
+.color3-600 {
+  background-color: #FFB300; }
+  .color3-600-txt {
+    color: #FFB300; }
+
+.color3-700 {
+  background-color: #FFA000; }
+  .color3-700-txt {
+    color: #FFA000; }
+
+.color3-800 {
+  background-color: #FF8F00; }
+  .color3-800-txt {
+    color: #FF8F00; }
+
+.color3-900 {
+  background-color: #FF6F00; }
+  .color3-900-txt {
+    color: #FF6F00; }
 
 .color-a1 {
   background-color: #FF80AB; }
@@ -569,5 +746,3 @@ body {
 
 .error-border {
   border-color: #CC0000; }
-
-/*# sourceMappingURL=white.css.map */

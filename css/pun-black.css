@@ -1,4 +1,4 @@
-/* prefix:'pun-' bg:black acc:Pink color:Blue color2:Blue Grey  */
+/* prefix:'' bg:black acc:Pink color:Blue color2:Teal color3:Amber */
 .pun-color-50.pun-hr,
 .pun-color-50 > .pun-hr, .pun-color-100.pun-hr,
 .pun-color-100 > .pun-hr, .pun-color-200.pun-hr,
@@ -10,7 +10,17 @@
 .pun-color2-100 > .pun-hr, .pun-color2-200.pun-hr,
 .pun-color2-200 > .pun-hr, .pun-color2-300.pun-hr,
 .pun-color2-300 > .pun-hr, .pun-color2-400.pun-hr,
-.pun-color2-400 > .pun-hr, .pun-color-a1.pun-hr,
+.pun-color2-400 > .pun-hr, .pun-color3-50.pun-hr,
+.pun-color3-50 > .pun-hr, .pun-color3-100.pun-hr,
+.pun-color3-100 > .pun-hr, .pun-color3-200.pun-hr,
+.pun-color3-200 > .pun-hr, .pun-color3-300.pun-hr,
+.pun-color3-300 > .pun-hr, .pun-color3-400.pun-hr,
+.pun-color3-400 > .pun-hr, .pun-color3-500.pun-hr,
+.pun-color3-500 > .pun-hr, .pun-color3-600.pun-hr,
+.pun-color3-600 > .pun-hr, .pun-color3-700.pun-hr,
+.pun-color3-700 > .pun-hr, .pun-color3-800.pun-hr,
+.pun-color3-800 > .pun-hr, .pun-color3-900.pun-hr,
+.pun-color3-900 > .pun-hr, .pun-color-a1.pun-hr,
 .pun-color-a1 > .pun-hr, .pun-color-a2.pun-hr,
 .pun-color-a2 > .pun-hr, .pun-hr, .pun-color-600.pun-hr,
 .pun-color-600 > .pun-hr, .pun-color-700.pun-hr,
@@ -25,8 +35,15 @@
 .pun-color-a3 > .pun-hr, .pun-color-a4.pun-hr,
 .pun-color-a4 > .pun-hr {
   height: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%; }
   .pun-color-50.pun-hr::before,
@@ -40,7 +57,17 @@
   .pun-color2-100 > .pun-hr::before, .pun-color2-200.pun-hr::before,
   .pun-color2-200 > .pun-hr::before, .pun-color2-300.pun-hr::before,
   .pun-color2-300 > .pun-hr::before, .pun-color2-400.pun-hr::before,
-  .pun-color2-400 > .pun-hr::before, .pun-color-a1.pun-hr::before,
+  .pun-color2-400 > .pun-hr::before, .pun-color3-50.pun-hr::before,
+  .pun-color3-50 > .pun-hr::before, .pun-color3-100.pun-hr::before,
+  .pun-color3-100 > .pun-hr::before, .pun-color3-200.pun-hr::before,
+  .pun-color3-200 > .pun-hr::before, .pun-color3-300.pun-hr::before,
+  .pun-color3-300 > .pun-hr::before, .pun-color3-400.pun-hr::before,
+  .pun-color3-400 > .pun-hr::before, .pun-color3-500.pun-hr::before,
+  .pun-color3-500 > .pun-hr::before, .pun-color3-600.pun-hr::before,
+  .pun-color3-600 > .pun-hr::before, .pun-color3-700.pun-hr::before,
+  .pun-color3-700 > .pun-hr::before, .pun-color3-800.pun-hr::before,
+  .pun-color3-800 > .pun-hr::before, .pun-color3-900.pun-hr::before,
+  .pun-color3-900 > .pun-hr::before, .pun-color-a1.pun-hr::before,
   .pun-color-a1 > .pun-hr::before, .pun-color-a2.pun-hr::before,
   .pun-color-a2 > .pun-hr::before, .pun-hr::before, .pun-color-600.pun-hr::before,
   .pun-color-600 > .pun-hr::before, .pun-color-700.pun-hr::before,
@@ -70,7 +97,17 @@
 .pun-color2-100 > .pun-txt1-bg, .pun-color2-200.pun-txt1-bg,
 .pun-color2-200 > .pun-txt1-bg, .pun-color2-300.pun-txt1-bg,
 .pun-color2-300 > .pun-txt1-bg, .pun-color2-400.pun-txt1-bg,
-.pun-color2-400 > .pun-txt1-bg, .pun-color-a1.pun-txt1-bg,
+.pun-color2-400 > .pun-txt1-bg, .pun-color3-50.pun-txt1-bg,
+.pun-color3-50 > .pun-txt1-bg, .pun-color3-100.pun-txt1-bg,
+.pun-color3-100 > .pun-txt1-bg, .pun-color3-200.pun-txt1-bg,
+.pun-color3-200 > .pun-txt1-bg, .pun-color3-300.pun-txt1-bg,
+.pun-color3-300 > .pun-txt1-bg, .pun-color3-400.pun-txt1-bg,
+.pun-color3-400 > .pun-txt1-bg, .pun-color3-500.pun-txt1-bg,
+.pun-color3-500 > .pun-txt1-bg, .pun-color3-600.pun-txt1-bg,
+.pun-color3-600 > .pun-txt1-bg, .pun-color3-700.pun-txt1-bg,
+.pun-color3-700 > .pun-txt1-bg, .pun-color3-800.pun-txt1-bg,
+.pun-color3-800 > .pun-txt1-bg, .pun-color3-900.pun-txt1-bg,
+.pun-color3-900 > .pun-txt1-bg, .pun-color-a1.pun-txt1-bg,
 .pun-color-a1 > .pun-txt1-bg, .pun-color-a2.pun-txt1-bg,
 .pun-color-a2 > .pun-txt1-bg {
   background-color: rgba(0, 0, 0, 0.87); }
@@ -86,7 +123,17 @@
 .pun-color2-100 > .pun-txt2-bg, .pun-color2-200.pun-txt2-bg,
 .pun-color2-200 > .pun-txt2-bg, .pun-color2-300.pun-txt2-bg,
 .pun-color2-300 > .pun-txt2-bg, .pun-color2-400.pun-txt2-bg,
-.pun-color2-400 > .pun-txt2-bg, .pun-color-a1.pun-txt2-bg,
+.pun-color2-400 > .pun-txt2-bg, .pun-color3-50.pun-txt2-bg,
+.pun-color3-50 > .pun-txt2-bg, .pun-color3-100.pun-txt2-bg,
+.pun-color3-100 > .pun-txt2-bg, .pun-color3-200.pun-txt2-bg,
+.pun-color3-200 > .pun-txt2-bg, .pun-color3-300.pun-txt2-bg,
+.pun-color3-300 > .pun-txt2-bg, .pun-color3-400.pun-txt2-bg,
+.pun-color3-400 > .pun-txt2-bg, .pun-color3-500.pun-txt2-bg,
+.pun-color3-500 > .pun-txt2-bg, .pun-color3-600.pun-txt2-bg,
+.pun-color3-600 > .pun-txt2-bg, .pun-color3-700.pun-txt2-bg,
+.pun-color3-700 > .pun-txt2-bg, .pun-color3-800.pun-txt2-bg,
+.pun-color3-800 > .pun-txt2-bg, .pun-color3-900.pun-txt2-bg,
+.pun-color3-900 > .pun-txt2-bg, .pun-color-a1.pun-txt2-bg,
 .pun-color-a1 > .pun-txt2-bg, .pun-color-a2.pun-txt2-bg,
 .pun-color-a2 > .pun-txt2-bg {
   background-color: rgba(0, 0, 0, 0.54); }
@@ -102,7 +149,17 @@
 .pun-color2-100 > .pun-txt3-bg, .pun-color2-200.pun-txt3-bg,
 .pun-color2-200 > .pun-txt3-bg, .pun-color2-300.pun-txt3-bg,
 .pun-color2-300 > .pun-txt3-bg, .pun-color2-400.pun-txt3-bg,
-.pun-color2-400 > .pun-txt3-bg, .pun-color-a1.pun-txt3-bg,
+.pun-color2-400 > .pun-txt3-bg, .pun-color3-50.pun-txt3-bg,
+.pun-color3-50 > .pun-txt3-bg, .pun-color3-100.pun-txt3-bg,
+.pun-color3-100 > .pun-txt3-bg, .pun-color3-200.pun-txt3-bg,
+.pun-color3-200 > .pun-txt3-bg, .pun-color3-300.pun-txt3-bg,
+.pun-color3-300 > .pun-txt3-bg, .pun-color3-400.pun-txt3-bg,
+.pun-color3-400 > .pun-txt3-bg, .pun-color3-500.pun-txt3-bg,
+.pun-color3-500 > .pun-txt3-bg, .pun-color3-600.pun-txt3-bg,
+.pun-color3-600 > .pun-txt3-bg, .pun-color3-700.pun-txt3-bg,
+.pun-color3-700 > .pun-txt3-bg, .pun-color3-800.pun-txt3-bg,
+.pun-color3-800 > .pun-txt3-bg, .pun-color3-900.pun-txt3-bg,
+.pun-color3-900 > .pun-txt3-bg, .pun-color-a1.pun-txt3-bg,
 .pun-color-a1 > .pun-txt3-bg, .pun-color-a2.pun-txt3-bg,
 .pun-color-a2 > .pun-txt3-bg {
   background-color: rgba(0, 0, 0, 0.26); }
@@ -118,7 +175,17 @@
 .pun-color2-100 > .pun-icon-bg, .pun-color2-200.pun-icon-bg,
 .pun-color2-200 > .pun-icon-bg, .pun-color2-300.pun-icon-bg,
 .pun-color2-300 > .pun-icon-bg, .pun-color2-400.pun-icon-bg,
-.pun-color2-400 > .pun-icon-bg, .pun-color-a1.pun-icon-bg,
+.pun-color2-400 > .pun-icon-bg, .pun-color3-50.pun-icon-bg,
+.pun-color3-50 > .pun-icon-bg, .pun-color3-100.pun-icon-bg,
+.pun-color3-100 > .pun-icon-bg, .pun-color3-200.pun-icon-bg,
+.pun-color3-200 > .pun-icon-bg, .pun-color3-300.pun-icon-bg,
+.pun-color3-300 > .pun-icon-bg, .pun-color3-400.pun-icon-bg,
+.pun-color3-400 > .pun-icon-bg, .pun-color3-500.pun-icon-bg,
+.pun-color3-500 > .pun-icon-bg, .pun-color3-600.pun-icon-bg,
+.pun-color3-600 > .pun-icon-bg, .pun-color3-700.pun-icon-bg,
+.pun-color3-700 > .pun-icon-bg, .pun-color3-800.pun-icon-bg,
+.pun-color3-800 > .pun-icon-bg, .pun-color3-900.pun-icon-bg,
+.pun-color3-900 > .pun-icon-bg, .pun-color-a1.pun-icon-bg,
 .pun-color-a1 > .pun-icon-bg, .pun-color-a2.pun-icon-bg,
 .pun-color-a2 > .pun-icon-bg {
   background-color: rgba(0, 0, 0, 0.54); }
@@ -134,7 +201,17 @@
 .pun-color2-100 > .pun-txt1, .pun-color2-200, .pun-color2-200.pun-txt1,
 .pun-color2-200 > .pun-txt1, .pun-color2-300, .pun-color2-300.pun-txt1,
 .pun-color2-300 > .pun-txt1, .pun-color2-400, .pun-color2-400.pun-txt1,
-.pun-color2-400 > .pun-txt1, .pun-color-a1, .pun-color-a1.pun-txt1,
+.pun-color2-400 > .pun-txt1, .pun-color3-50, .pun-color3-50.pun-txt1,
+.pun-color3-50 > .pun-txt1, .pun-color3-100, .pun-color3-100.pun-txt1,
+.pun-color3-100 > .pun-txt1, .pun-color3-200, .pun-color3-200.pun-txt1,
+.pun-color3-200 > .pun-txt1, .pun-color3-300, .pun-color3-300.pun-txt1,
+.pun-color3-300 > .pun-txt1, .pun-color3-400, .pun-color3-400.pun-txt1,
+.pun-color3-400 > .pun-txt1, .pun-color3-500, .pun-color3-500.pun-txt1,
+.pun-color3-500 > .pun-txt1, .pun-color3-600, .pun-color3-600.pun-txt1,
+.pun-color3-600 > .pun-txt1, .pun-color3-700, .pun-color3-700.pun-txt1,
+.pun-color3-700 > .pun-txt1, .pun-color3-800, .pun-color3-800.pun-txt1,
+.pun-color3-800 > .pun-txt1, .pun-color3-900, .pun-color3-900.pun-txt1,
+.pun-color3-900 > .pun-txt1, .pun-color-a1, .pun-color-a1.pun-txt1,
 .pun-color-a1 > .pun-txt1, .pun-color-a2, .pun-color-a2.pun-txt1,
 .pun-color-a2 > .pun-txt1, .pun-info-bg, .pun-warning-bg {
   color: rgba(0, 0, 0, 0.87); }
@@ -150,7 +227,17 @@
 .pun-color2-100 > .pun-txt2, .pun-color2-200.pun-txt2,
 .pun-color2-200 > .pun-txt2, .pun-color2-300.pun-txt2,
 .pun-color2-300 > .pun-txt2, .pun-color2-400.pun-txt2,
-.pun-color2-400 > .pun-txt2, .pun-color-a1.pun-txt2,
+.pun-color2-400 > .pun-txt2, .pun-color3-50.pun-txt2,
+.pun-color3-50 > .pun-txt2, .pun-color3-100.pun-txt2,
+.pun-color3-100 > .pun-txt2, .pun-color3-200.pun-txt2,
+.pun-color3-200 > .pun-txt2, .pun-color3-300.pun-txt2,
+.pun-color3-300 > .pun-txt2, .pun-color3-400.pun-txt2,
+.pun-color3-400 > .pun-txt2, .pun-color3-500.pun-txt2,
+.pun-color3-500 > .pun-txt2, .pun-color3-600.pun-txt2,
+.pun-color3-600 > .pun-txt2, .pun-color3-700.pun-txt2,
+.pun-color3-700 > .pun-txt2, .pun-color3-800.pun-txt2,
+.pun-color3-800 > .pun-txt2, .pun-color3-900.pun-txt2,
+.pun-color3-900 > .pun-txt2, .pun-color-a1.pun-txt2,
 .pun-color-a1 > .pun-txt2, .pun-color-a2.pun-txt2,
 .pun-color-a2 > .pun-txt2 {
   color: rgba(0, 0, 0, 0.54); }
@@ -166,7 +253,17 @@
 .pun-color2-100 > .pun-txt3, .pun-color2-200.pun-txt3,
 .pun-color2-200 > .pun-txt3, .pun-color2-300.pun-txt3,
 .pun-color2-300 > .pun-txt3, .pun-color2-400.pun-txt3,
-.pun-color2-400 > .pun-txt3, .pun-color-a1.pun-txt3,
+.pun-color2-400 > .pun-txt3, .pun-color3-50.pun-txt3,
+.pun-color3-50 > .pun-txt3, .pun-color3-100.pun-txt3,
+.pun-color3-100 > .pun-txt3, .pun-color3-200.pun-txt3,
+.pun-color3-200 > .pun-txt3, .pun-color3-300.pun-txt3,
+.pun-color3-300 > .pun-txt3, .pun-color3-400.pun-txt3,
+.pun-color3-400 > .pun-txt3, .pun-color3-500.pun-txt3,
+.pun-color3-500 > .pun-txt3, .pun-color3-600.pun-txt3,
+.pun-color3-600 > .pun-txt3, .pun-color3-700.pun-txt3,
+.pun-color3-700 > .pun-txt3, .pun-color3-800.pun-txt3,
+.pun-color3-800 > .pun-txt3, .pun-color3-900.pun-txt3,
+.pun-color3-900 > .pun-txt3, .pun-color-a1.pun-txt3,
 .pun-color-a1 > .pun-txt3, .pun-color-a2.pun-txt3,
 .pun-color-a2 > .pun-txt3 {
   color: rgba(0, 0, 0, 0.26); }
@@ -182,7 +279,17 @@
 .pun-color2-100 > .pun-icon, .pun-color2-200.pun-icon,
 .pun-color2-200 > .pun-icon, .pun-color2-300.pun-icon,
 .pun-color2-300 > .pun-icon, .pun-color2-400.pun-icon,
-.pun-color2-400 > .pun-icon, .pun-color-a1.pun-icon,
+.pun-color2-400 > .pun-icon, .pun-color3-50.pun-icon,
+.pun-color3-50 > .pun-icon, .pun-color3-100.pun-icon,
+.pun-color3-100 > .pun-icon, .pun-color3-200.pun-icon,
+.pun-color3-200 > .pun-icon, .pun-color3-300.pun-icon,
+.pun-color3-300 > .pun-icon, .pun-color3-400.pun-icon,
+.pun-color3-400 > .pun-icon, .pun-color3-500.pun-icon,
+.pun-color3-500 > .pun-icon, .pun-color3-600.pun-icon,
+.pun-color3-600 > .pun-icon, .pun-color3-700.pun-icon,
+.pun-color3-700 > .pun-icon, .pun-color3-800.pun-icon,
+.pun-color3-800 > .pun-icon, .pun-color3-900.pun-icon,
+.pun-color3-900 > .pun-icon, .pun-color-a1.pun-icon,
 .pun-color-a1 > .pun-icon, .pun-color-a2.pun-icon,
 .pun-color-a2 > .pun-icon {
   color: rgba(0, 0, 0, 0.54); }
@@ -198,7 +305,17 @@
 .pun-color2-100 > .pun-hr::before, .pun-color2-200.pun-hr::before,
 .pun-color2-200 > .pun-hr::before, .pun-color2-300.pun-hr::before,
 .pun-color2-300 > .pun-hr::before, .pun-color2-400.pun-hr::before,
-.pun-color2-400 > .pun-hr::before, .pun-color-a1.pun-hr::before,
+.pun-color2-400 > .pun-hr::before, .pun-color3-50.pun-hr::before,
+.pun-color3-50 > .pun-hr::before, .pun-color3-100.pun-hr::before,
+.pun-color3-100 > .pun-hr::before, .pun-color3-200.pun-hr::before,
+.pun-color3-200 > .pun-hr::before, .pun-color3-300.pun-hr::before,
+.pun-color3-300 > .pun-hr::before, .pun-color3-400.pun-hr::before,
+.pun-color3-400 > .pun-hr::before, .pun-color3-500.pun-hr::before,
+.pun-color3-500 > .pun-hr::before, .pun-color3-600.pun-hr::before,
+.pun-color3-600 > .pun-hr::before, .pun-color3-700.pun-hr::before,
+.pun-color3-700 > .pun-hr::before, .pun-color3-800.pun-hr::before,
+.pun-color3-800 > .pun-hr::before, .pun-color3-900.pun-hr::before,
+.pun-color3-900 > .pun-hr::before, .pun-color-a1.pun-hr::before,
 .pun-color-a1 > .pun-hr::before, .pun-color-a2.pun-hr::before,
 .pun-color-a2 > .pun-hr::before {
   background-color: rgba(0, 0, 0, 0.12); }
@@ -214,7 +331,17 @@
 .pun-color2-100 > .pun-hr-border, .pun-color2-200.pun-hr-border,
 .pun-color2-200 > .pun-hr-border, .pun-color2-300.pun-hr-border,
 .pun-color2-300 > .pun-hr-border, .pun-color2-400.pun-hr-border,
-.pun-color2-400 > .pun-hr-border, .pun-color-a1.pun-hr-border,
+.pun-color2-400 > .pun-hr-border, .pun-color3-50.pun-hr-border,
+.pun-color3-50 > .pun-hr-border, .pun-color3-100.pun-hr-border,
+.pun-color3-100 > .pun-hr-border, .pun-color3-200.pun-hr-border,
+.pun-color3-200 > .pun-hr-border, .pun-color3-300.pun-hr-border,
+.pun-color3-300 > .pun-hr-border, .pun-color3-400.pun-hr-border,
+.pun-color3-400 > .pun-hr-border, .pun-color3-500.pun-hr-border,
+.pun-color3-500 > .pun-hr-border, .pun-color3-600.pun-hr-border,
+.pun-color3-600 > .pun-hr-border, .pun-color3-700.pun-hr-border,
+.pun-color3-700 > .pun-hr-border, .pun-color3-800.pun-hr-border,
+.pun-color3-800 > .pun-hr-border, .pun-color3-900.pun-hr-border,
+.pun-color3-900 > .pun-hr-border, .pun-color-a1.pun-hr-border,
 .pun-color-a1 > .pun-hr-border, .pun-color-a2.pun-hr-border,
 .pun-color-a2 > .pun-hr-border {
   border-bottom: 0.0625em solid rgba(0, 0, 0, 0.12); }
@@ -442,54 +569,104 @@ body {
     color: #0D47A1; }
 
 .pun-color2-50 {
-  background-color: #ECEFF1; }
+  background-color: #E0F2F1; }
   .pun-color2-50-txt {
-    color: #ECEFF1; }
+    color: #E0F2F1; }
 
 .pun-color2-100 {
-  background-color: #CFD8DC; }
+  background-color: #B2DFDB; }
   .pun-color2-100-txt {
-    color: #CFD8DC; }
+    color: #B2DFDB; }
 
 .pun-color2-200 {
-  background-color: #B0BEC5; }
+  background-color: #80CBC4; }
   .pun-color2-200-txt {
-    color: #B0BEC5; }
+    color: #80CBC4; }
 
 .pun-color2-300 {
-  background-color: #90A4AE; }
+  background-color: #4DB6AC; }
   .pun-color2-300-txt {
-    color: #90A4AE; }
+    color: #4DB6AC; }
 
 .pun-color2-400 {
-  background-color: #78909C; }
+  background-color: #26A69A; }
   .pun-color2-400-txt {
-    color: #78909C; }
+    color: #26A69A; }
 
 .pun-color2-500 {
-  background-color: #607D8B; }
+  background-color: #009688; }
   .pun-color2-500-txt {
-    color: #607D8B; }
+    color: #009688; }
 
 .pun-color2-600 {
-  background-color: #546E7A; }
+  background-color: #00897B; }
   .pun-color2-600-txt {
-    color: #546E7A; }
+    color: #00897B; }
 
 .pun-color2-700 {
-  background-color: #455A64; }
+  background-color: #00796B; }
   .pun-color2-700-txt {
-    color: #455A64; }
+    color: #00796B; }
 
 .pun-color2-800 {
-  background-color: #37474F; }
+  background-color: #00695C; }
   .pun-color2-800-txt {
-    color: #37474F; }
+    color: #00695C; }
 
 .pun-color2-900 {
-  background-color: #263238; }
+  background-color: #004D40; }
   .pun-color2-900-txt {
-    color: #263238; }
+    color: #004D40; }
+
+.pun-color3-50 {
+  background-color: #FFF8E1; }
+  .pun-color3-50-txt {
+    color: #FFF8E1; }
+
+.pun-color3-100 {
+  background-color: #FFECB3; }
+  .pun-color3-100-txt {
+    color: #FFECB3; }
+
+.pun-color3-200 {
+  background-color: #FFE082; }
+  .pun-color3-200-txt {
+    color: #FFE082; }
+
+.pun-color3-300 {
+  background-color: #FFD54F; }
+  .pun-color3-300-txt {
+    color: #FFD54F; }
+
+.pun-color3-400 {
+  background-color: #FFCA28; }
+  .pun-color3-400-txt {
+    color: #FFCA28; }
+
+.pun-color3-500 {
+  background-color: #FFC107; }
+  .pun-color3-500-txt {
+    color: #FFC107; }
+
+.pun-color3-600 {
+  background-color: #FFB300; }
+  .pun-color3-600-txt {
+    color: #FFB300; }
+
+.pun-color3-700 {
+  background-color: #FFA000; }
+  .pun-color3-700-txt {
+    color: #FFA000; }
+
+.pun-color3-800 {
+  background-color: #FF8F00; }
+  .pun-color3-800-txt {
+    color: #FF8F00; }
+
+.pun-color3-900 {
+  background-color: #FF6F00; }
+  .pun-color3-900-txt {
+    color: #FF6F00; }
 
 .pun-color-a1 {
   background-color: #FF80AB; }
@@ -569,5 +746,3 @@ body {
 
 .pun-error-border {
   border-color: #ff4444; }
-
-/*# sourceMappingURL=pun-black.css.map */
